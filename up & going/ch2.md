@@ -839,7 +839,7 @@ Talvez ajude visualizando os objetos `foo` e `bar` e sua relação:
 
 <img src="fig6.png">
 
-A propriedade `a` não existe atualmente no objeto `bar`, mas conta de `bar` ser prototipalmente associada a `foo`, o JavaScript automaticamente *falls back* para procurar por `a` no objeto `foo`, onde o encontra.
+A propriedade `a` não existe atualmente no objeto `bar`, mas por conta de `bar` ser prototipalmente associada a `foo`, o JavaScript automaticamente *falls back* para procurar por `a` no objeto `foo`, onde o encontra.
 
 Essa *linkagem* (associação) pode parecer uma funcionalidade estranha na linguagem. A forma mais comum que essa funcionalidade é usada -- e eu digo até, abusada -- é ao tentar emular um mecanismo de "classe" com "herança".
 
